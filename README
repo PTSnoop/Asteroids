@@ -1,0 +1,5 @@
+Here's a game of asteroids, thrown together one Friday afternoon in Lua, then ported word-for-word to C++ to teach myself how to use Irrlicht in 2d.
+
+I can't recommend either as examples of how to code 2d games. If you base anything off them, you'll pick up all sorts of bad habits. Be warned. Having said that, as not-too-complex examples of basic syntax, there might be something in there. animage.cpp is pretty useful, I plucked the main draw2DImage function off a forum post.
+
+Enjoy.
