@@ -196,7 +196,10 @@ int main() {
     res_x = deskres.Width;
     res_y = deskres.Height;
 
-    IrrlichtDevice *device = createDevice(video::EDT_OPENGL,core::dimension2d<u32>(res_x,res_y),16,true,true,true,&receiver);
+    res_x = 1024;
+    res_y = 600;
+
+    IrrlichtDevice *device = createDevice(video::EDT_OPENGL,core::dimension2d<u32>(res_x,res_y),16,false,false,false,&receiver);
     device->setWindowCaption(L"Asteroids!");
     video::IVideoDriver* driver = device->getVideoDriver();
 
